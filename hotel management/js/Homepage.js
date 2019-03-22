@@ -1,4 +1,4 @@
-﻿var imageUrl=["Slideshow1.jpg","SlideShow2.jpg","Slideshow3.png","Slideshow4.png","Slideshow5.jpg","Slideshow6.png"]			//IMAGES URL STORED IN ARRAY FOR SLIDESHOW
+﻿var imageUrl=["../images/Slideshow1.jpg","../images/SlideShow2.jpg","../images/Slideshow3.png","../images/Slideshow4.png","../images/Slideshow5.jpg","../images/Slideshow6.png"]			//IMAGES URL STORED IN ARRAY FOR SLIDESHOW
 var i=-1
 
 var UniDate=new Date()
@@ -638,7 +638,9 @@ function validateEvent()
 	var tempName=document.getElementByID("EName").value
 	var tempEmail=document.getElementByID("EEmail").value
 	var Telephone=document.getElementByID("ETelephone").value
-	var Event=document.getElementByID("ETEvent").value}
+	var Event=document.getElementByID("ETEvent").value
+
+}
 
 	
 
